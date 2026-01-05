@@ -44,6 +44,30 @@ export const templeData = {
     }
   ],
 
+  history: {
+  title: "திருக்கோவில் வரலாறு & கும்பாபிஷேகம்",
+  events: [
+    {
+      title: "VMP பூமி பூஜை (தறி) – Bhoomi Pooja",
+      date: "19 / 10 / 2020",
+      time: "9:15 AM – 10:15 AM",
+      description: "The sacred foundation ritual marking the beginning of the temple construction."
+    },
+    {
+      title: "அடிக்கல் நாட்டு விழா – Adikkal Nattu Vizha",
+      date: "26 / 10 / 2020",
+      time: "9:15 AM – 10:15 AM",
+      description: "Traditional foundation stone laying ceremony conducted as per Agama customs."
+    },
+    {
+      title: "மஹா கும்பாபிஷேகம் – Maha Kumbhabhishekam",
+      date: "30 / 03 / 2021 (Panguni 17, Sarvari)",
+      time: "",
+      description: "The grand consecration ceremony of Arulmigu Sree Vanasastha Thampuran Thirukovil."
+    }
+  ]
+},
+
   // Put images in src/assets/gallery/ and keep these names (or change the list)
   gallery: [
     "/src/assets/gallery/1.jpg",
