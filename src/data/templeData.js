@@ -1,0 +1,54 @@
+export const templeData = {
+  name: "Arulmigu Sree Vanasastha Thampuran Thirukovil",
+  deity: "Vanasastha Thampuran (Ayyappa Swamy)",
+  tagline: "A Sacred Abode of Dharma, Devotion, and Tradition",
+
+  // Update these if you want
+  location: "Kerala, India",
+  maps: "https://maps.google.com",
+  instagram: "https://www.instagram.com/vanasastha_thampuraan/",
+  instagramHandle: "vanasastha_thampuraan",
+
+  about: [
+    "Arulmigu Sree Vanasastha Thampuran Thirukovil is a traditional Kerala village temple dedicated to Vanasastha Thampuran, the forest form of Lord Ayyappa.",
+    "The temple follows age-old customs and rituals, preserving spiritual discipline and devotional purity.",
+    "Devotees gather daily for poojas and during festivals to seek blessings, peace, and protection."
+  ],
+
+  // These are placeholders — replace with your exact timings if you have them
+  timings: [
+    { label: "Morning", value: "5:30 AM – 11:30 AM" },
+    { label: "Evening", value: "5:00 PM – 8:30 PM" }
+  ],
+
+  poojas: [
+    { time: "5:45 AM", name: "Nirmalya Darshanam" },
+    { time: "6:30 AM", name: "Usha Pooja" },
+    { time: "10:30 AM", name: "Ucha Pooja" },
+    { time: "6:30 PM", name: "Deeparadhana" },
+    { time: "8:15 PM", name: "Athazha Pooja" }
+  ],
+
+  festivals: [
+    {
+      title: "Annual Temple Festival",
+      desc: "Traditional celebrations with poojas, rituals, and cultural programs."
+    },
+    {
+      title: "Mandala – Makaravilakku Season",
+      desc: "Special poojas dedicated to Lord Ayyappa."
+    },
+    {
+      title: "Monthly Special Poojas",
+      desc: "Conducted on auspicious nakshatra days."
+    }
+  ],
+
+  // Put images in src/assets/gallery/ and keep these names (or change the list)
+  gallery: [
+    "/src/assets/gallery/1.jpg",
+    "/src/assets/gallery/2.jpg",
+    "/src/assets/gallery/3.jpg",
+    "/src/assets/gallery/4.jpg"
+  ]
+};
