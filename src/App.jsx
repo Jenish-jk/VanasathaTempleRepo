@@ -100,6 +100,20 @@ export default function App() {
         </div>
       </Section>
 
+      <Section>
+        <h2>{templeData.history.title}</h2>
+
+        {templeData.history.events.map((e, i) => (
+          <div key={i} style={{ marginBottom: "16px" }}>
+            <h4>{e.title}</h4>
+            <p className="muted">
+              📅 {e.date} {e.time && `| ⏰ ${e.time}`}
+            </p>
+            <p>{e.description}</p>
+          </div>
+        ))}
+    </Section>
+
       <Section id="timings" title="Temple Timings" subtitle="Timings may vary on festivals and special occasions.">
         <CardGrid items={t.timings} />
       </Section>
