@@ -80,9 +80,6 @@ export default function App() {
               Directions
             </a>
           </div>
-          <div className="heroNote muted">
-            Add your best temple photo(s) in <code>src/assets/gallery/</code> to populate the gallery.
-          </div>
         </div>
       </section>
 
