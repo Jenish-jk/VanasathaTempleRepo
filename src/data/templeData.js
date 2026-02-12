@@ -1,3 +1,9 @@
+import tp1 from "../assets/gallery/TP-1.jpg";
+import tp2 from "../assets/gallery/TP-2.jpg";
+import tp3 from "../assets/gallery/TP-3.jpg";
+import tp4 from "../assets/gallery/TP-4.jpg";
+import tpVinayagar from "../assets/gallery/Vinayagar chathurthi 2025.webp";
+
 export const templeData = {
   name: "Arulmigu Sree Vanasastha Thampuran Thirukovil",
   deity: "Vanasastha Thampuran (Ayyappa Swamy)",
@@ -45,34 +51,36 @@ export const templeData = {
   ],
 
   history: {
-  title: "திருக்கோவில் வரலாறு & கும்பாபிஷேகம்",
-  events: [
-    {
-      title: "VMP பூமி பூஜை (தறி) – Bhoomi Pooja",
-      date: "19 / 10 / 2020",
-      time: "9:15 AM – 10:15 AM",
-      description: "The sacred foundation ritual marking the beginning of the temple construction."
-    },
-    {
-      title: "அடிக்கல் நாட்டு விழா – Adikkal Nattu Vizha",
-      date: "26 / 10 / 2020",
-      time: "9:15 AM – 10:15 AM",
-      description: "Traditional foundation stone laying ceremony conducted as per Agama customs."
-    },
-    {
-      title: "மஹா கும்பாபிஷேகம் – Maha Kumbhabhishekam",
-      date: "30 / 03 / 2021 (Panguni 17, Sarvari)",
-      time: "",
-      description: "The grand consecration ceremony of Arulmigu Sree Vanasastha Thampuran Thirukovil."
-    }
-  ]
-},
+    title: "திருக்கோவில் வரலாறு & கும்பாபிஷேகம்",
+    events: [
+      {
+        title: "VMP பூமி பூஜை (தறி) – Bhoomi Pooja",
+        date: "19 / 10 / 2020",
+        time: "9:15 AM – 10:15 AM",
+        description: "The sacred foundation ritual marking the beginning of the temple construction."
+      },
+      {
+        title: "அடிக்கல் நாட்டு விழா – Adikkal Nattu Vizha",
+        date: "26 / 10 / 2020",
+        time: "9:15 AM – 10:15 AM",
+        description: "Traditional foundation stone laying ceremony conducted as per Agama customs."
+      },
+      {
+        title: "மஹா கும்பாபிஷேகம் – Maha Kumbhabhishekam",
+        date: "30 / 03 / 2021 (Panguni 17, Sarvari)",
+        time: "",
+        description: "The grand consecration ceremony of Arulmigu Sree Vanasastha Thampuran Thirukovil."
+      }
+    ]
+  },
 
   // Put images in src/assets/gallery/ and keep these names (or change the list)
+  // Gallery updated to use local assets
   gallery: [
-    "/src/assets/gallery/1.jpg",
-    "/src/assets/gallery/2.jpg",
-    "/src/assets/gallery/3.jpg",
-    "/src/assets/gallery/4.jpg"
+    tp1,
+    tp2,
+    tp3,
+    tp4,
+    tpVinayagar
   ]
 };
