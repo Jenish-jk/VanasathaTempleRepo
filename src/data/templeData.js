@@ -2,7 +2,11 @@ import tp1 from "../assets/gallery/TP-1.jpg";
 import tp2 from "../assets/gallery/TP-2.jpg";
 import tp3 from "../assets/gallery/TP-3.jpg";
 import tp4 from "../assets/gallery/TP-4.jpg";
+import tp5 from "../assets/gallery/TP-5.jpg";
+import tp6 from "../assets/gallery/TP-6.jpg";
 import tpVinayagar from "../assets/gallery/Vinayagar chathurthi 2025.webp";
+
+export const heroCover = tp4;
 
 export const templeData = {
   name: "Arulmigu Sree Vanasastha Thampuran Thirukovil",
@@ -21,7 +25,6 @@ export const templeData = {
     "Devotees gather daily for poojas and during festivals to seek blessings, peace, and protection."
   ],
 
-  // These are placeholders — replace with your exact timings if you have them
   timings: [
     { label: "Morning", value: "5:30 AM – 11:30 AM" },
     { label: "Evening", value: "5:00 PM – 8:30 PM" }
@@ -74,13 +77,12 @@ export const templeData = {
     ]
   },
 
-  // Put images in src/assets/gallery/ and keep these names (or change the list)
-  // Gallery updated to use local assets
   gallery: [
     tp1,
     tp2,
     tp3,
     tp4,
+    tp5,
     tpVinayagar
   ]
 };
